@@ -1,0 +1,19 @@
+:root{
+  --font-color-black: #000;
+  --font-color-white: #FFF;
+  --font-color-light: #b0aebe;
+  --font-color-dark: #212529;
+  --font-color-base: #666;
+  --button-link: #57A6FF;
+  --footer-main: #34314b;
+  --footer-base: #2e2b45;
+  --contrast-color: var(var(--font-color-light));
+  --success: #64ECF5;
+  --danger: #FF8B8D;
+  --grad-1: #a1ecff;
+  --grad-2: #7dbcff;
+}
+
+h1{
+  color: var(--font-color-dark);
+}
