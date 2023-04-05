@@ -30,6 +30,17 @@
   align-items: center;
 }
 
+.nav-link a {
+  color: var(--font-color-white);
+  padding: 15px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  font-family: "Hind", sans-serif;
+  text-transform: uppercase;
+  margin-right: 2.5rem;
+  line-height: 1.25rem;
+}
+
 .bg-header {
   background-image: url("./assets/images/bg-header-1.jpg");
   background-color: var(--footer-base);
@@ -58,13 +69,7 @@
   z-index: -1;
 }
 
-.nav-link a {
+.hero-header {
   color: var(--font-color-white);
-  padding: 15px;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  font-family: "Hind", sans-serif;
-  text-transform: uppercase;
-  margin-right: 2.5rem;
-  line-height: 1.25rem;
 }
+
