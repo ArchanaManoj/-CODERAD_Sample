@@ -120,18 +120,5 @@ img {
   }
 }
 
-.footer-top {
-  color: var(--font-color-white);
-  background-color: var(--footer-main);
 
-}
 
-.footer-bottom {
-  color: var(--font-color-light);
-  background-color: var(--footer-base)
-
-}
-.social-icons img {
-  width: 20px;
-  height: 20px;
-}
