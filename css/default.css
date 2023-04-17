@@ -63,7 +63,7 @@ p {
 }
 
 h2 {
-  font-size: var(--size-30);
+  font-size: 1.75rem;
   font-weight: 500;
   line-height: 1.2;
 }
