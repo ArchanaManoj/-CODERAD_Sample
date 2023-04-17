@@ -14,9 +14,9 @@
     rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
+  <link rel="stylesheet" href="./css/styles.css" />
   <link rel="stylesheet" href="./css/default.css" />
   <link rel="stylesheet" href="./css/responsive.css" />
-  <link rel="stylesheet" href="./css/styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
@@ -383,7 +383,16 @@
   </footer>
 
   <a id="scrollUp" href="#pageTop"><i class="fa-solid fa-arrow-up"></i></a>
+  <script>
+    const navButton = document.querySelector('button[aria-expanded]');
 
+    function toggleNav({ target }) {
+      const expanded = target.getAttribute('aria-expanded') === 'true' || 'false';
+      navButton.setAttribute('aria-expanded', !expanded);
+    }
+
+    navButton.addEventListener('click', toggleNav);
+  </script>
 </body>
 
 </html>
